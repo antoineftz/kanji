@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'balonxb';
+  src: local('balonxb'), url(./fonts/balonxb.ttf) format('truetype');
+}
+
+* {
+  font-family: 'balonxb';
+}
+
+/*Container for the first row */
+.kanji-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.kanji-container > div {
+  background-color: rgb(255, 255, 255) ;
+  height: 283px;
+  width: 398px;
+  margin: 10px;
+  border-radius: 15px;
+  border-style: solid ;
+  border-width: 1px;
+  border-color: rgb(32, 156, 119);
+}
+
+/* "KANJI FLASHCARD title*/
+.app-title,.app-title2 {
+  font-size: 22pt;
+  color:rgb(32, 156, 119);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Kanji card cell*/
+.kanji-card {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Container second row*/
+.button-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.button-container > div {
+  background-color: #ffffff;
+  height: 63px ;
+  width: 57px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 18px;
+}
+
+/* Properties of the RESET cell */
+.reset {
+  color:rgb(32, 156, 119);
+  height: 63px ;
+  width: 57px;
+  border-color: rgb(255, 255, 255);
+  margin: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset:hover{
+  color: rgb(125, 206, 101);
+}
+
+/*SCORE title*/
+.sco {
+  color:rgb(32, 156, 119);
+  height: 63px ;
+  width: 57px;
+  border-color: rgb(255, 255, 255);
+  margin: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Properties of the SCORE cell*/
+.score {
+  color: rgb(32, 156, 119) ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score:hover {
+  color: rgb(125, 206, 101);  
+}
+
+
+
+
+
+
+
